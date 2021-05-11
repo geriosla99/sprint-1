@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/450_1000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor{
+    background: #f0f8fa;
+    width: 70%;
+    max-width: 1000;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 0.5vw;
+}
+#logo{
+     width: 50%;
+     border-radius: 50%;
+}
+#title{
+    justify-content: center;
+    text-align: center;   
+    font-family: fira sans;
+}
+header{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.barra-menu{
+    padding: 20px;
+}
+.a{
+    padding: 1.5vw;
+    text-decoration: none;
+    color: black;
+    font-family: Fira sans;
+    font-style: normal;
+}
+.main{
+    background: rgba(110, 149, 221, 0.61);
+    padding: 20px;
+}
+.pie-de-pagina{
+    background: #f0f8fa;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+   
+}
+.pc{
+    width: 30vw;
+}
+.text{
+    justify-content: center;
+    font-family: fira sans;
+}
+
+.a :hover{
+    color: #0066ff;
+}
