@@ -36,6 +36,11 @@ header{
 }
 .barra-menu{
     padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .a{
     padding: 1.5vw;
@@ -46,7 +51,13 @@ header{
 }
 .main{
     background: rgba(110, 149, 221, 0.61);
+    width: 100%;
     padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 00.5vw;
 }
 .pie-de-pagina{
     background: #f0f8fa;
@@ -57,12 +68,60 @@ header{
 }
 .pc{
     width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .text{
-    justify-content: center;
+    justify-content: left;
     font-family: fira sans;
 }
 
-.a :hover{
+.a:hover{
     color: #0066ff;
+    background: lightblue;
+    border-radius: 00.5vw;
+}
+.ingreso{
+    padding: 10px;
+
+}
+#calcular{
+    background-color: rgba(110, 149, 221, 0.61);
+    border: solid 1px grey;
+    border-radius: 0.09vw;
+    width: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .barra-menu{
+        position: relative;
+        padding: 40px;
+        font-size: 6vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .contenedor{
+        font-size: 4vw;
+    }
+    .main{
+        padding: 3vw;
+    }
+    .ingreso{
+        width: 80%;
+    }
+}
+ 
+@media screen and (max-width: 800px){
+
+    .barra-menu{
+        font-size: 5vw;
+    }
+    
 }
